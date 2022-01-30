@@ -1,13 +1,13 @@
 package main;
 
-import service.BalanceService;
+import service.BracketBalanceService;
 
 import java.util.Scanner;
 
 //Driver Class
 public class CheckBracketBalance {
     //Instances From Service Class And Scanner Class
-    static BalanceService balancedBracketsService = new BalanceService();
+    static BracketBalanceService balancedBracketsService = new BracketBalanceService();
     static Scanner sc = new Scanner(System.in);
     //Main Driver Method
     public static void main(String[] args) {

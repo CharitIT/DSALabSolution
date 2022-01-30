@@ -2,7 +2,7 @@ package service;
 
 import java.util.Stack;
 //Service Class to checks if given brackets sequence is balanced
-public class BalanceService {
+public class BracketBalanceService {
     public static boolean checkIfBracketsIsBalanced(String bracketsExpression) {
         //Implementing using a stack
         Stack<Character> stack = new Stack<>();
